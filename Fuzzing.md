@@ -8,4 +8,4 @@ In addition to finding bugs, Fuzzing can be used to extract messages thrown by t
 
 ## Fuzzer
 
-A fuzzer is a program which injects automatically semi-random data into a program/stack and detect bugs. The data-generation part is made of generators, and vulnerability identification relies on debugging tools. Generators usually use combinations of static fuzzing vectors (known-to-be-dangerous values), or totally random data. New generation fuzzers use genetic algorithms to link injected data and observed impact.
+A fuzzer is a program which injects automatically semi-random data into a program/stack and detect bugs. The data-generation part is made of generators, and vulnerability identification relies on debugging tools. Generators usually use combinations of static fuzzing vectors known values, or totally random data. New generation fuzzers use genetic algorithms to link injected data and observed impact.
